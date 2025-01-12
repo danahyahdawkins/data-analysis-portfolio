@@ -7,23 +7,25 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #2c3e50; /* Deep navy blue for starry night */
-            color: #ecf0f1; /* Light gray text to contrast with dark background */
+            background-color: #1b1b1b; /* Dark background for starry night */
+            color: #f4f4f4; /* Light text color */
             margin: 0;
             padding: 0;
         }
         header {
-            background-color: #34495e; /* Slightly lighter shade for the header */
-            color: white;
+            background-color: #111;
+            color: #f4f4f4;
             padding: 20px;
             text-align: center;
-            border-radius: 10px;
         }
         .container {
             padding: 20px;
         }
-        h2 {
-            color: #ecf0f1; /* Light gray to keep consistent theme */
+        h1, h2, h3 {
+            color: #f4f4f4;
+        }
+        h3 {
+            color: #f4a261;
         }
         ul {
             list-style-type: none;
@@ -33,58 +35,74 @@
         }
         a {
             text-decoration: none;
-            color: #f39c12; /* Bright yellow-orange for links, like stars */
+            color: #ffcc00;
+            font-weight: bold;
         }
         a:hover {
             text-decoration: underline;
-            color: #f1c40f; /* Slightly lighter gold on hover */
         }
-        h3 {
-            color: #f39c12; /* Bright yellow-orange for section titles */
-            font-size: 1.5em;
+        /* Add some styling for tree/star emoji */
+        .emoji {
+            font-size: 24px;
         }
-        .star-emoji {
-            font-size: 1.5em;
-            margin-left: 5px;
+        .header-subtitle {
+            font-size: 16px;
         }
     </style>
 </head>
 <body>
     <header>
         <h1>Danahyah Dawkins - Data Analysis Portfolio</h1>
-        <p>Click on the links below to explore my projects organized by skill and level.</p>
+        <p class="header-subtitle">Click on the links below to explore my projects organized by skill and level.</p>
     </header>
     <div class="container">
         <h2>Projects</h2>
-        <h3>Excel Projects <span class="star-emoji">⭐</span></h3>
+        
+        <!-- Excel Projects -->
+        <h3>Excel Projects <span class="emoji">✨</span></h3>
         <ul>
-            <li><a href="excel/beginner/README.md">Beginner Projects</a></li>
-            <li><a href="excel/intermediate/README.md">Intermediate Projects</a></li>
-            <li><a href="excel/advanced/README.md">Advanced Projects</a></li>
+            <li><a href="excel/beginner/index.html">Beginner Projects</a></li>
+            <li><a href="excel/intermediate/index.html">Intermediate Projects</a></li>
+            <li><a href="excel/advanced/index.html">Advanced Projects</a></li>
         </ul>
-        <h3>Data Manipulation Projects <span class="star-emoji">⭐</span></h3>
+        
+        <!-- Data Manipulation Projects -->
+        <h3>Data Manipulation Projects <span class="emoji">✨</span></h3>
         <ul>
-            <li><a href="data-manipulation/beginner/README.md">Beginner Projects</a></li>
-            <li><a href="data-manipulation/intermediate/README.md">Intermediate Projects</a></li>
-            <li><a href="data-manipulation/advanced/README.md">Advanced Projects</a></li>
+            <li><a href="data-manipulation/beginner/index.html">Beginner Projects</a></li>
+            <li><a href="data-manipulation/intermediate/index.html">Intermediate Projects</a></li>
+            <li><a href="data-manipulation/advanced/index.html">Advanced Projects</a></li>
         </ul>
-        <h3>Python Projects <span class="star-emoji">⭐</span></h3>
+        
+        <!-- Python Projects -->
+        <h3>Python Projects <span class="emoji">✨</span></h3>
         <ul>
-            <li><a href="python/beginner/README.md">Beginner Projects</a></li>
-            <li><a href="python/intermediate/README.md">Intermediate Projects</a></li>
-            <li><a href="python/advanced/README.md">Advanced Projects</a></li>
+            <li><a href="python/beginner/index.html">Beginner Projects</a></li>
+            <li><a href="python/intermediate/index.html">Intermediate Projects</a></li>
+            <li><a href="python/advanced/index.html">Advanced Projects</a></li>
         </ul>
-        <h3>SQL Projects <span class="star-emoji">⭐</span></h3>
+        
+        <!-- SQL Projects -->
+        <h3>SQL Projects <span class="emoji">✨</span></h3>
         <ul>
-            <li><a href="sql/beginner/README.md">Beginner Projects</a></li>
-            <li><a href="sql/intermediate/README.md">Intermediate Projects</a></li>
-            <li><a href="sql/advanced/README.md">Advanced Projects</a></li>
+            <li><a href="sql/beginner/index.html">Beginner Projects</a></li>
+            <li><a href="sql/intermediate/index.html">Intermediate Projects</a></li>
+            <li><a href="sql/advanced/index.html">Advanced Projects</a></li>
         </ul>
-        <h3>Tableau Projects <span class="star-emoji">⭐</span></h3>
+        
+        <!-- Tableau Projects -->
+        <h3>Tableau Projects <span class="emoji">✨</span></h3>
         <ul>
-            <li><a href="tableau/beginner/README.md">Beginner Projects</a></li>
-            <li><a href="tableau/intermediate/README.md">Intermediate Projects</a></li>
-            <li><a href="tableau/advanced/README.md">Advanced Projects</a></li>
+            <li><a href="tableau/beginner/index.html">Beginner Projects</a></li>
+            <li><a href="tableau/intermediate/index.html">Intermediate Projects</a></li>
+            <li><a href="tableau/advanced/index.html">Advanced Projects</a></li>
+        </ul>
+        
+        <!-- Display Excel Beginner Project 1 -->
+        <h3>Excel Beginner Project 1 <span class="emoji">✨</span></h3>
+        <p>Click below to view my first Excel project.</p>
+        <ul>
+            <li><a href="excel/beginner/project1/index.html">View Project 1</a></li>
         </ul>
     </div>
 </body>
